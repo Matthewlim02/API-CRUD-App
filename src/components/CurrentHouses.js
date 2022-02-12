@@ -23,7 +23,7 @@ export class CurrentHouses extends React.Component {
 
     render() {
         return(
-            <div className='house-list'>
+            <div className='current-houses'>
                 {this.state.houses.map((house) => (
                     <House
                        house={house}
